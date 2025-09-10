@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: books_recommender
+Version: 0.0.1
+Summary: A small local packages for ML based books recommendations
+Home-page: https://github.com/entbappy/ML-Based-Book-Recommender-System
+Author: BOKTIAR AHMED BAPPY
+Author-email: entbappy73@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+ML Based Books Recommender System
