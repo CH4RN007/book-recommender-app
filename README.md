@@ -1,5 +1,3 @@
-ML Based Books Recommender System
-
 📄 Quick Notes – Book Recommendation App
 
 1. Project Overview
