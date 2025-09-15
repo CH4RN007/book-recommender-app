@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["streamlit", "run", "Home.py", "--server.port", "7860", "--server.address", "0.0.0.0"]
+CMD ["streamlit", "run", "home.py", "--server.port", "7860", "--server.address", "0.0.0.0"]
