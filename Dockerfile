@@ -1,4 +1,4 @@
-FROM python:3.13
+FROM python:3.10
 
 WORKDIR /app
 
@@ -7,4 +7,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["streamlit", "run", "home.py", "--server.port", "7860", "--server.address", "0.0.0.0"]
+EXPOSE 7860
+
+CMD ["streamlit", "run", "Home.py", "--server.port", "7860", "--server.address", "0.0.0.0"]
