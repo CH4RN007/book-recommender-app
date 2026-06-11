@@ -1,4 +1,4 @@
-📄 Quick Notes – Book Recommendation App
+Book Recommendation App
 
 1. Project Overview
 This Streamlit app is a multi‑page book discovery platform built on:
@@ -55,15 +55,3 @@ All pages now:
   st.markdown(f"[ISBN: {isbn}](https://www.google.com/search?q=isbn+{isbn})")
   ```
 - This opens a normal Google search in the “All” tab, avoiding the broken Books tab.
-
- 5. Extending the App
-Potential future pages:
-- Author Spotlight → Browse books by author.
-- Yearly Trends → Filter by publication year.
-- Search Page → Search by title, author, or ISBN.
-- Stats Dashboard → Charts for rating distribution, top publishers, etc.
-
- 6. Tips for Maintenance
-- Keep CSVs and PKLs in the same directory as the app unless you update file paths.
-- If you add new columns (e.g., genres), you can integrate them into filters or new pages.
-- For faster load times, consider pre‑merging ratings into a single PKL for all pages.
